@@ -17,29 +17,28 @@ int main(void)
 //	_EEPROM_Initial();
 //	_IOInitial();
 	/*Watch dog*/
-//	IWDG_WriteAccessCmd(IWDG_WriteAccess_Enable);
-//	IWDG_SetPrescaler(IWDG_Prescaler_64);//128kHz
-//	IWDG_SetReload(0xff);//Counter 256
-//	IWDG_ReloadCounter();//Watch Dog Reset Time = (1/128k)*61*256 = 128ms
-//	IWDG_Enable();
-//	IWDG_WriteAccessCmd(IWDG_WriteAccess_Disable);
+	IWDG_WriteAccessCmd(IWDG_WriteAccess_Enable);
+	IWDG_SetPrescaler(IWDG_Prescaler_128);//128kHz
+	IWDG_SetReload(0xff);//Counter 256
+	IWDG_ReloadCounter();//Watch Dog Reset Time = (1/128k)*61*256 = 128ms
+	IWDG_Enable();
+	IWDG_WriteAccessCmd(IWDG_WriteAccess_Disable);
 
 	while(1)
 	{
 		_timerBase();
-//		IWDG_ReloadCounter();//Clear Watch Dog Counter.
+		IWDG_ReloadCounter();//Clear Watch Dog Counter.
 		if(isTimeProcess)
 		{
 			isTimeProcess = No;
-			//isBeeper = 1;
 			_output();
 			_keyScan();
 			_timerWheel();
 			_displayDecode();
 			_Display();
 			_keyScanProcess();
-			if(++time_CNT_M > 8)
-			{
+			if(++time_CNT_M > 2)
+			{//2*(16+16)*3 = 182ms/times
 				time_CNT_M = 0;
 				_AD_Conversion();
 			}
