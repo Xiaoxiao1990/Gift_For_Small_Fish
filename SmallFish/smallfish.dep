@@ -1,0 +1,47 @@
+;	STMicroelectronics dependencies file
+
+[Version]
+Keyword=ST7Project
+Number=1.3
+
+[Root.FWlib.stm8s_stdperiph_driver\src\stm8s_adc1.c.Config.0]
+ExternDep= stm8s_stdperiph_driver\src\stm8s_adc1.c  "C:\Program Files\COSMIC\CXSTM8_32K\Hstm8\mods0.h"  stm8s_stdperiph_driver\inc\stm8s_adc1.h stm8s_stdperiph_driver\inc\stm8s.h  mcu\stm8s_conf.h stm8s_stdperiph_driver\inc\stm8s_awu.h  stm8s_stdperiph_driver\inc\stm8s_beep.h  stm8s_stdperiph_driver\inc\stm8s_clk.h  stm8s_stdperiph_driver\inc\stm8s_exti.h  stm8s_stdperiph_driver\inc\stm8s_flash.h  stm8s_stdperiph_driver\inc\stm8s_gpio.h  stm8s_stdperiph_driver\inc\stm8s_i2c.h stm8s_stdperiph_driver\inc\stm8s_itc.h  stm8s_stdperiph_driver\inc\stm8s_iwdg.h  stm8s_stdperiph_driver\inc\stm8s_rst.h stm8s_stdperiph_driver\inc\stm8s_spi.h  stm8s_stdperiph_driver\inc\stm8s_tim1.h  stm8s_stdperiph_driver\inc\stm8s_tim2.h  stm8s_stdperiph_driver\inc\stm8s_tim4.h  stm8s_stdperiph_driver\inc\stm8s_uart1.h  stm8s_stdperiph_driver\inc\stm8s_wwdg.h
+
+[Root.FWlib.stm8s_stdperiph_driver\src\stm8s_flash.c.Config.0]
+ExternDep= stm8s_stdperiph_driver\src\stm8s_flash.c  "C:\Program Files\COSMIC\CXSTM8_32K\Hstm8\mods0.h"  stm8s_stdperiph_driver\inc\stm8s_flash.h stm8s_stdperiph_driver\inc\stm8s.h  mcu\stm8s_conf.h stm8s_stdperiph_driver\inc\stm8s_adc1.h  stm8s_stdperiph_driver\inc\stm8s_awu.h  stm8s_stdperiph_driver\inc\stm8s_beep.h  stm8s_stdperiph_driver\inc\stm8s_clk.h  stm8s_stdperiph_driver\inc\stm8s_exti.h  stm8s_stdperiph_driver\inc\stm8s_gpio.h  stm8s_stdperiph_driver\inc\stm8s_i2c.h stm8s_stdperiph_driver\inc\stm8s_itc.h  stm8s_stdperiph_driver\inc\stm8s_iwdg.h  stm8s_stdperiph_driver\inc\stm8s_rst.h stm8s_stdperiph_driver\inc\stm8s_spi.h  stm8s_stdperiph_driver\inc\stm8s_tim1.h  stm8s_stdperiph_driver\inc\stm8s_tim2.h  stm8s_stdperiph_driver\inc\stm8s_tim4.h  stm8s_stdperiph_driver\inc\stm8s_uart1.h  stm8s_stdperiph_driver\inc\stm8s_wwdg.h
+
+[Root.FWlib.stm8s_stdperiph_driver\src\stm8s_iwdg.c.Config.0]
+ExternDep= stm8s_stdperiph_driver\src\stm8s_iwdg.c  "C:\Program Files\COSMIC\CXSTM8_32K\Hstm8\mods0.h"  stm8s_stdperiph_driver\inc\stm8s_iwdg.h stm8s_stdperiph_driver\inc\stm8s.h  mcu\stm8s_conf.h stm8s_stdperiph_driver\inc\stm8s_adc1.h  stm8s_stdperiph_driver\inc\stm8s_awu.h  stm8s_stdperiph_driver\inc\stm8s_beep.h  stm8s_stdperiph_driver\inc\stm8s_clk.h  stm8s_stdperiph_driver\inc\stm8s_exti.h  stm8s_stdperiph_driver\inc\stm8s_flash.h  stm8s_stdperiph_driver\inc\stm8s_gpio.h  stm8s_stdperiph_driver\inc\stm8s_i2c.h stm8s_stdperiph_driver\inc\stm8s_itc.h  stm8s_stdperiph_driver\inc\stm8s_rst.h stm8s_stdperiph_driver\inc\stm8s_spi.h  stm8s_stdperiph_driver\inc\stm8s_tim1.h  stm8s_stdperiph_driver\inc\stm8s_tim2.h  stm8s_stdperiph_driver\inc\stm8s_tim4.h  stm8s_stdperiph_driver\inc\stm8s_uart1.h  stm8s_stdperiph_driver\inc\stm8s_wwdg.h
+
+[Root.Source Files.main.c.Config.0]
+ExternDep= main.c "C:\Program Files\COSMIC\CXSTM8_32K\Hstm8\mods0.h"  subfiles\includes.h mcu\stm8s003F3.h mcu\STM8S103F.h  subfiles\stm8s_bitsdefine.h subfiles\config.h subfiles\display.h  subfiles\time.h subfiles\rtc.h subfiles\keyscan.h subfiles\adc.h  subfiles\eeprom.h subfiles\output.h stm8s_stdperiph_driver\inc\stm8s_iwdg.h  stm8s_stdperiph_driver\inc\stm8s.h mcu\stm8s_conf.h  stm8s_stdperiph_driver\inc\stm8s_adc1.h  stm8s_stdperiph_driver\inc\stm8s_awu.h  stm8s_stdperiph_driver\inc\stm8s_beep.h  stm8s_stdperiph_driver\inc\stm8s_clk.h  stm8s_stdperiph_driver\inc\stm8s_exti.h  stm8s_stdperiph_driver\inc\stm8s_flash.h  stm8s_stdperiph_driver\inc\stm8s_gpio.h  stm8s_stdperiph_driver\inc\stm8s_i2c.h stm8s_stdperiph_driver\inc\stm8s_itc.h  stm8s_stdperiph_driver\inc\stm8s_rst.h stm8s_stdperiph_driver\inc\stm8s_spi.h  stm8s_stdperiph_driver\inc\stm8s_tim1.h  stm8s_stdperiph_driver\inc\stm8s_tim2.h  stm8s_stdperiph_driver\inc\stm8s_tim4.h  stm8s_stdperiph_driver\inc\stm8s_uart1.h  stm8s_stdperiph_driver\inc\stm8s_wwdg.h
+
+[Root.Source Files.stm8_interrupt_vector.c.Config.0]
+ExternDep= stm8_interrupt_vector.c  "C:\Program Files\COSMIC\CXSTM8_32K\Hstm8\mods0.h" subfiles\includes.h  mcu\stm8s003F3.h mcu\STM8S103F.h subfiles\stm8s_bitsdefine.h  subfiles\config.h subfiles\display.h subfiles\time.h subfiles\rtc.h  subfiles\keyscan.h subfiles\adc.h subfiles\eeprom.h subfiles\output.h
+
+[Root.Source Files.subfiles\adc.c.Config.0]
+ExternDep= subfiles\adc.c "C:\Program Files\COSMIC\CXSTM8_32K\Hstm8\mods0.h"  subfiles\includes.h mcu\stm8s003F3.h mcu\STM8S103F.h  subfiles\stm8s_bitsdefine.h subfiles\config.h subfiles\display.h  subfiles\time.h subfiles\rtc.h subfiles\keyscan.h subfiles\adc.h  subfiles\eeprom.h subfiles\output.h stm8s_stdperiph_driver\inc\stm8s_adc1.h  stm8s_stdperiph_driver\inc\stm8s.h mcu\stm8s_conf.h  stm8s_stdperiph_driver\inc\stm8s_awu.h  stm8s_stdperiph_driver\inc\stm8s_beep.h  stm8s_stdperiph_driver\inc\stm8s_clk.h  stm8s_stdperiph_driver\inc\stm8s_exti.h  stm8s_stdperiph_driver\inc\stm8s_flash.h  stm8s_stdperiph_driver\inc\stm8s_gpio.h  stm8s_stdperiph_driver\inc\stm8s_i2c.h stm8s_stdperiph_driver\inc\stm8s_itc.h  stm8s_stdperiph_driver\inc\stm8s_iwdg.h  stm8s_stdperiph_driver\inc\stm8s_rst.h stm8s_stdperiph_driver\inc\stm8s_spi.h  stm8s_stdperiph_driver\inc\stm8s_tim1.h  stm8s_stdperiph_driver\inc\stm8s_tim2.h  stm8s_stdperiph_driver\inc\stm8s_tim4.h  stm8s_stdperiph_driver\inc\stm8s_uart1.h  stm8s_stdperiph_driver\inc\stm8s_wwdg.h
+
+[Root.Source Files.subfiles\config.c.Config.0]
+ExternDep= subfiles\config.c  "C:\Program Files\COSMIC\CXSTM8_32K\Hstm8\mods0.h" subfiles\includes.h  mcu\stm8s003F3.h mcu\STM8S103F.h subfiles\stm8s_bitsdefine.h  subfiles\config.h subfiles\display.h subfiles\time.h subfiles\rtc.h  subfiles\keyscan.h subfiles\adc.h subfiles\eeprom.h subfiles\output.h
+
+[Root.Source Files.subfiles\display.c.Config.0]
+ExternDep= subfiles\display.c  "C:\Program Files\COSMIC\CXSTM8_32K\Hstm8\mods0.h" subfiles\includes.h  mcu\stm8s003F3.h mcu\STM8S103F.h subfiles\stm8s_bitsdefine.h  subfiles\config.h subfiles\display.h subfiles\time.h subfiles\rtc.h  subfiles\keyscan.h subfiles\adc.h subfiles\eeprom.h subfiles\output.h
+
+[Root.Source Files.subfiles\eeprom.c.Config.0]
+ExternDep= subfiles\eeprom.c  "C:\Program Files\COSMIC\CXSTM8_32K\Hstm8\mods0.h" subfiles\includes.h  mcu\stm8s003F3.h mcu\STM8S103F.h subfiles\stm8s_bitsdefine.h  subfiles\config.h subfiles\display.h subfiles\time.h subfiles\rtc.h  subfiles\keyscan.h subfiles\adc.h subfiles\eeprom.h subfiles\output.h  stm8s_stdperiph_driver\inc\stm8s_flash.h stm8s_stdperiph_driver\inc\stm8s.h  mcu\stm8s_conf.h stm8s_stdperiph_driver\inc\stm8s_adc1.h  stm8s_stdperiph_driver\inc\stm8s_awu.h  stm8s_stdperiph_driver\inc\stm8s_beep.h  stm8s_stdperiph_driver\inc\stm8s_clk.h  stm8s_stdperiph_driver\inc\stm8s_exti.h  stm8s_stdperiph_driver\inc\stm8s_gpio.h  stm8s_stdperiph_driver\inc\stm8s_i2c.h stm8s_stdperiph_driver\inc\stm8s_itc.h  stm8s_stdperiph_driver\inc\stm8s_iwdg.h  stm8s_stdperiph_driver\inc\stm8s_rst.h stm8s_stdperiph_driver\inc\stm8s_spi.h  stm8s_stdperiph_driver\inc\stm8s_tim1.h  stm8s_stdperiph_driver\inc\stm8s_tim2.h  stm8s_stdperiph_driver\inc\stm8s_tim4.h  stm8s_stdperiph_driver\inc\stm8s_uart1.h  stm8s_stdperiph_driver\inc\stm8s_wwdg.h
+
+[Root.Source Files.subfiles\includes.c.Config.0]
+ExternDep= subfiles\includes.c  "C:\Program Files\COSMIC\CXSTM8_32K\Hstm8\mods0.h" subfiles\includes.h  mcu\stm8s003F3.h mcu\STM8S103F.h subfiles\stm8s_bitsdefine.h  subfiles\config.h subfiles\display.h subfiles\time.h subfiles\rtc.h  subfiles\keyscan.h subfiles\adc.h subfiles\eeprom.h subfiles\output.h
+
+[Root.Source Files.subfiles\keyscan.c.Config.0]
+ExternDep= subfiles\keyscan.c  "C:\Program Files\COSMIC\CXSTM8_32K\Hstm8\mods0.h" subfiles\includes.h  mcu\stm8s003F3.h mcu\STM8S103F.h subfiles\stm8s_bitsdefine.h  subfiles\config.h subfiles\display.h subfiles\time.h subfiles\rtc.h  subfiles\keyscan.h subfiles\adc.h subfiles\eeprom.h subfiles\output.h
+
+[Root.Source Files.subfiles\output.c.Config.0]
+ExternDep= subfiles\output.c  "C:\Program Files\COSMIC\CXSTM8_32K\Hstm8\mods0.h" subfiles\includes.h  mcu\stm8s003F3.h mcu\STM8S103F.h subfiles\stm8s_bitsdefine.h  subfiles\config.h subfiles\display.h subfiles\time.h subfiles\rtc.h  subfiles\keyscan.h subfiles\adc.h subfiles\eeprom.h subfiles\output.h
+
+[Root.Source Files.subfiles\rtc.c.Config.0]
+ExternDep= subfiles\rtc.c "C:\Program Files\COSMIC\CXSTM8_32K\Hstm8\mods0.h"  subfiles\includes.h mcu\stm8s003F3.h mcu\STM8S103F.h  subfiles\stm8s_bitsdefine.h subfiles\config.h subfiles\display.h  subfiles\time.h subfiles\rtc.h subfiles\keyscan.h subfiles\adc.h  subfiles\eeprom.h subfiles\output.h
+
+[Root.Source Files.subfiles\time.c.Config.0]
+ExternDep= subfiles\time.c  "C:\Program Files\COSMIC\CXSTM8_32K\Hstm8\mods0.h" subfiles\includes.h  mcu\stm8s003F3.h mcu\STM8S103F.h subfiles\stm8s_bitsdefine.h  subfiles\config.h subfiles\display.h subfiles\time.h subfiles\rtc.h  subfiles\keyscan.h subfiles\adc.h subfiles\eeprom.h subfiles\output.h
